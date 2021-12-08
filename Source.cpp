@@ -6,8 +6,8 @@ using namespace std;
 
 int main()
 {
-	srand(static_cast<unsigned int>(time(0))); // запускаем генератор случайных чисел
-	int secretNumber = rand() % 15 + 1; //случайное число в диапазоне от 1до100
+	srand(static_cast<unsigned int>(time(0))); // СЂР°РЅРґРѕРј
+	int secretNumber = rand() % 15 + 1; //РІС‹Р±РѕСЂ С‡РёСЃР»Р°
 	int tries = 0;
 	int guess;
 	cout << "\tWelcome to Guess My Number\n\n";
